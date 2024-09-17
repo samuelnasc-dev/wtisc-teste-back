@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 
 // Configuração de CORS (deve vir antes das rotas)
 app.use(cors({
-    origin: 'https://main--wtisc2.netlify.app', // Permite o front-end (Vite)
+    origin: 'http://localhost:5173', // Permite o front-end (Vite)
     methods: 'GET, POST, PUT, DELETE', // Métodos HTTP permitidos
     credentials: true, // Permite envio de cookies
 }));
